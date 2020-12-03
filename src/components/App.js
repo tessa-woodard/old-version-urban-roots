@@ -1,13 +1,13 @@
 import React from 'react'
-import Register from './Register'
+import Register from './Auth/Register'
 import { Container } from 'react-bootstrap'
 import { AuthProvider } from '../contexts/AuthContext'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Dashboard from './Dashboard'
-import Login from './Login'
-import PrivateRoute from './PrivateRoute'
-import ForgotPassword from './ForgotPassword'
-import UpdateProfile from './UpdateProfile'
+import Profile from './Auth/Profile'
+import Login from './Auth/Login'
+import PrivateRoute from './Auth/PrivateRoute'
+import ForgotPassword from './Auth/ForgotPassword'
+import UpdateProfile from './Auth/UpdateProfile'
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Router>
           <AuthProvider>
             <Switch>
-              <PrivateRoute exact path="/" component={Dashboard} />
+              <Route exact path="/profile" component={Profile} />
               <PrivateRoute path="/update-profile" component={UpdateProfile} />
               <Route path="/register" component={Register} />
               <Route path="/login" component={Login} />

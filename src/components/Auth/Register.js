@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 import { Form, Button, Card, Alert } from 'react-bootstrap'
-import { useAuth } from '../contexts/AuthContext'
+import { useAuth } from '../../contexts/AuthContext'
 import { Link, useHistory } from 'react-router-dom'
 
 export default function Register() {
@@ -23,7 +23,7 @@ export default function Register() {
       setError('')
       setLoading(true)
       await register(emailRef.current.value, passwordRef.current.value)
-      history.push('/')
+      history.push('/login')
     } catch {
       setError('Failed to create an account')
     }
