@@ -16,6 +16,7 @@ import Header from './Globals/Header/Header'
 import Footer from './Globals/Footer/Footer'
 
 import Homepage from './Homepage/Homepage'
+import About from './About/About'
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/register" component={Register} />
           <Route path="/login" component={Login} />
           <Route path="/forgot-password" component={ForgotPassword} />
+          <Route path="/about" component={About} />
         </Switch>
       </AuthProvider>
       <Footer />
