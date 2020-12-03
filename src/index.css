@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme&family=Dosis&family=Merriweather&family=Montserrat&family=Raleway&family=Roboto&display=swap%27');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Dosis', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +13,20 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+html,
+body {
+  outline: none;
+}
+:focus {
+  outline: none;
+}
+
+button {
+  font-family: 'Roboto';
+}
+
+textarea {
+  resize: none;
 }
