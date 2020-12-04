@@ -32,9 +32,10 @@ export default function Login() {
       <div className="login-container">
         <section className="login">
           <div className="row">
-            <div className="col-8 col-sm-8 col-md-8 mx-auto">
+            <div className="col-12 col-sm-12 col-md-12 mx-auto">
               <h2 className="login-title">
-                Welcome Back! {''}
+                Welcome Back!
+                <br />
                 <span className="flowers"> We're glad to see you, again! </span>
               </h2>
               <form onSubmit={handleSubmit}>
@@ -63,6 +64,7 @@ export default function Login() {
                     Sign Up
                   </Link>
                 </div>
+                <br />
                 <button
                   disabled={loading}
                   class="btn btn-outline-dark"

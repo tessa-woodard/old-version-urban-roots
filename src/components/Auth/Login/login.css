@@ -1,11 +1,18 @@
 .login-container {
   display: flex;
   justify-content: space-around;
-  margin: 100px 0;
+  margin: 9em 0;
+}
+
+@media (max-width: 600px) {
+  .login-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .login-img {
-  width: 35%;
+  width: 40%;
   background-image: url('https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/login.jpg?raw=true');
   background-position: center;
   background-repeat: no-repeat;
@@ -13,10 +20,10 @@
 }
 
 .login-title {
-  font-size: 4rem;
+  font-size: 5rem;
   justify-content: center;
   line-height: 0.8em;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-family: 'Playfair Display', serif;
   letter-spacing: 1.1px;
   margin-top: 0;
@@ -27,13 +34,11 @@
   font-size: 1.5rem;
   justify-content: center;
   line-height: 0.5em;
-  margin-bottom: 40;
   font-family: 'Playfair Display', serif;
   letter-spacing: 1.1px;
-  margin-top: 0;
 }
 
 .login-form-group {
-  line-height: 5rem;
+  line-height: 2rem;
   padding-bottom: 2rem;
 }
