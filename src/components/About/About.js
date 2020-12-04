@@ -44,43 +44,33 @@ const AboutUs = () => {
           <div>
             <img
               className={classes.expertImg}
-              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/Components/img/women1.jpeg?raw=true"
+              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/women1.jpeg?raw=true"
               alt=""
               width="250px"
             />
             <h3 className={classes.expertTitle}>RACHAEL BROOKS</h3>
-            <span className={classes.expertName}>Florist</span>
+            {/* <span className={classes.expertName}>Florist</span> */}
           </div>
           <div>
             <img
               className={classes.expertImg}
-              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/Components/img/women2.jpeg?raw=true"
+              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/women2.jpeg?raw=true"
               alt=""
               width="250px"
             />
             <h3 className={classes.expertTitle}>KAYLA ADAMS</h3>
-            <span className={classes.expertName}>Manager</span>
+            {/* <span className={classes.expertName}>Manager</span> */}
           </div>
           <div>
             <img
               className={classes.expertImg}
-              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/Components/img/women3.jpeg?raw=true"
+              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/women3.jpeg?raw=true"
               alt=""
               width="250px"
             />
             <h3 className={classes.expertTitle}>KRISTINA KNAPP</h3>
-            <span className={classes.expertName}>Florist</span>
+            {/* <span className={classes.expertName}>Florist</span> */}
           </div>
-          {/* <div>
-            <img
-              className={classes.expertImg}
-              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/Components/img/women4.jpeg?raw=true"
-              alt=""
-              width="250px"
-            />
-            <h3 className={classes.expertTitle}>EMILY HOLLAND</h3>
-            <span className={classes.expertName}>Florist</span>
-          </div> */}
         </div>
       </div>
     </>

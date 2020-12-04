@@ -6,7 +6,7 @@ export const useStyles = makeStyles((theme) => ({
     height: '100%',
     textAlign: 'center',
     backgroundImage:
-      "url('https://github.com/tessa-woodard/urban-roots/blob/main/src/Components/img/background.jpeg?raw=true')",
+      "url('https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/background.jpeg?raw=true')",
     backgroundAttachment: 'fixed',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
@@ -78,7 +78,7 @@ export const useStyles = makeStyles((theme) => ({
   imgBlock: {
     width: '38%',
     backgroundImage:
-      'url("https://github.com/tessa-woodard/urban-roots/blob/main/src/Components/img/about-us.jpeg?raw=true")',
+      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/about-us.jpeg?raw=true")',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',

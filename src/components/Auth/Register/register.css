@@ -13,7 +13,7 @@
 
 .register-img {
   width: 45%;
-  background-image: url('https://github.com/tessa-woodard/urban-roots/blob/main/src/Components/img/register.jpg?raw=true');
+  background-image: url('https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/register.jpg?raw=true');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,7 +23,7 @@
   font-size: 5rem;
   justify-content: center;
   line-height: 0.8em;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-family: 'Playfair Display', serif;
   letter-spacing: 1.1px;
   margin-top: 0;
@@ -34,13 +34,11 @@
   font-size: 1.5rem;
   justify-content: center;
   line-height: 0.5em;
-  margin-bottom: 40;
   font-family: 'Playfair Display', serif;
   letter-spacing: 1.1px;
-  margin-top: 0;
 }
 
 .form-group {
-  line-height: 3rem;
+  line-height: 2rem;
   padding-bottom: 2rem;
 }
