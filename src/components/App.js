@@ -18,6 +18,7 @@ import ForgotPassword from './Auth/ForgotPassword'
 import UpdateProfile from './Auth/UpdateProfile'
 
 import About from './About/About'
+import Contact from './Contact/Contact'
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <PrivateRoute path="/update-profile" component={UpdateProfile} />
 
           <Route path="/about" component={About} />
+          <Route path="/contact-us" component={Contact} />
         </Switch>
       </AuthProvider>
       <Footer />
