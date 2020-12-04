@@ -9,7 +9,7 @@ import Header from './Globals/Header/Header'
 import Footer from './Globals/Footer/Footer'
 
 import Register from './Auth/Register/Register'
-import Login from './Auth/Login'
+import Login from './Auth/Login/Login'
 
 import PrivateRoute from './Auth/PrivateRoute'
 
