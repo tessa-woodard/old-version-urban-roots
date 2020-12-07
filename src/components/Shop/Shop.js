@@ -34,8 +34,8 @@ class Shop extends React.Component {
                   <img src={product.image} alt="plant-img" />
                 </div>
                 <div className="card-body text-center">
-                  <h1 className="product-name">{product.name}</h1>
-                  <h1 className="product-name">${product.price}</h1>
+                  <h1 className="product-title">{product.title}</h1>
+                  <h1 className="product-title">${product.price}</h1>
                   <button type="button" class="btn btn-outline-dark">
                     Add To Cart
                   </button>
