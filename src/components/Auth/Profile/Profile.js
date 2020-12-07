@@ -1,44 +1,97 @@
-import React, { useState } from 'react'
-import { Alert } from 'react-bootstrap'
+import React, { useRef, useState } from 'react'
+import { Form, Button, Card, Alert } from 'react-bootstrap'
 import { useAuth } from '../../../contexts/AuthContext'
 import { Link, useHistory } from 'react-router-dom'
 import './profile.css'
 
-export default function Dashboard() {
+export default function UpdateProfile() {
+  const emailRef = useRef()
+  const passwordRef = useRef()
+  const passwordConfirmRef = useRef()
+  const { currentUser, updatePassword, updateEmail } = useAuth()
   const [error, setError] = useState('')
-  const { currentUser, logout } = useAuth()
+  const [loading, setLoading] = useState(false)
   const history = useHistory()
 
-  async function handleLogout() {
+  function handleSubmit(e) {
+    e.preventDefault()
+    if (passwordRef.current.value !== passwordConfirmRef.current.value) {
+      return setError('Passwords do not match')
+    }
+
+    const promises = []
+    setLoading(true)
     setError('')
 
-    try {
-      await logout()
-      history.push('/')
-    } catch {
-      setError('Failed to log out')
+    if (emailRef.current.value !== currentUser.email) {
+      promises.push(updateEmail(emailRef.current.value))
     }
+    if (passwordRef.current.value) {
+      promises.push(updatePassword(passwordRef.current.value))
+    }
+
+    Promise.all(promises)
+      .then(() => {
+        history.push('/')
+      })
+      .catch(() => {
+        setError('Failed to update account')
+      })
+      .finally(() => {
+        setLoading(false)
+      })
   }
 
   return (
     <>
       <div className="profile-container">
+        <div className="profile-img" />
         <div className="profile">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 mx-auto">
-              <h2 className="profile-title">Profile</h2>
+              <h2 className="profile-title">Personal Details</h2>
               {error && <Alert variant="danger">{error}</Alert>}
-              <strong>Email:</strong> {currentUser.email}
-              <br />
-              <div className="w-100 text-center mt-2">
-                <a
-                  variant="link"
-                  href="/update-profile"
-                  class="btn btn-outline-dark"
+              {/* <strong>Email:</strong> {currentUser.email} */}
+              <form onSubmit={handleSubmit}>
+                <form className="form-group" id="email">
+                  <form>Email</form>
+                  <input
+                    type="email"
+                    className="form-control"
+                    ref={emailRef}
+                    required
+                    defaultValue={currentUser.email}
+                  />
+                </form>
+                <form className="form-group" id="password">
+                  <form>Password</form>
+                  <input
+                    type="password"
+                    className="form-control"
+                    ref={passwordRef}
+                    // placeholder="Leave blank to keep the same"
+                  />
+                </form>
+                <form className="form-group" id="password-confirm">
+                  <form>Password Confirmation</form>
+                  <input
+                    type="password"
+                    className="form-control"
+                    ref={passwordConfirmRef}
+                    // placeholder="Leave blank to keep the same"
+                  />
+                </form>
+                <button
+                  disabled={loading}
+                  className="btn btn-outline-dark"
+                  type="submit"
                 >
-                  Update Profile
+                  Update
+                </button>
+                <a class="btn btn-outline-dark" variant="link" href="/">
+                  Cancel
                 </a>
-              </div>
+              </form>
             </div>
           </div>
         </div>

@@ -24,7 +24,7 @@ export default function Register() {
       setError('')
       setLoading(true)
       await register(emailRef.current.value, passwordRef.current.value)
-      history.push('/profile')
+      history.push('/shop')
     } catch {
       setError('Failed to create an account')
     }

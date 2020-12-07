@@ -1,7 +1,7 @@
 .profile-container {
   display: flex;
   justify-content: space-around;
-  margin: 9em 0;
+  margin: 5em 0;
 }
 
 .profile-title {
@@ -12,4 +12,17 @@
   font-family: 'Playfair Display', serif;
   letter-spacing: 1.1px;
   margin-top: 0;
+}
+
+.form-group {
+  line-height: 2rem;
+  padding-bottom: 2rem;
+}
+
+.profile-img {
+  width: 40%;
+  background-image: url('https://images.pexels.com/photos/4505447/pexels-photo-4505447.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

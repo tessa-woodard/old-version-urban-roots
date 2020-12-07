@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './App.css'
+
 import { AuthProvider } from '../contexts/AuthContext'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -13,11 +15,11 @@ import Login from './Auth/Login/Login'
 
 import PrivateRoute from './Auth/PrivateRoute'
 
-import Profile from './Auth/Profile/Profile'
+// import Profile from './Auth/Profile/Profile'
 import ForgotPassword from './Auth/ForgotPassword'
-import UpdateProfile from './Auth/UpdateProfile'
+import Profile from './Auth/Profile/Profile'
 
-import Shop from './Shop/Shop'
+import Shop from './AllProducts/Shop/Shop'
 
 import About from './About/About'
 import Contact from './Contact/Contact'
@@ -33,9 +35,9 @@ function App() {
           <Route path="/register" component={Register} />
           <Route path="/login" component={Login} />
 
-          <Route path="/profile" component={Profile} />
+          {/* <Route path="/profile" component={Profile} /> */}
           <Route path="/forgot-password" component={ForgotPassword} />
-          <PrivateRoute path="/update-profile" component={UpdateProfile} />
+          <PrivateRoute path="/profile" component={Profile} />
 
           <Route path="/shop" component={Shop} />
 
