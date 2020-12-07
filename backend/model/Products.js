@@ -57,7 +57,7 @@ Product.create(
     category: 'Succulents'
   },
   {
-    name: 'Lula Garden Succulents',
+    name: 'Rose Garden Succulents',
     price: 54.99,
     image:
       'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/lula.jpeg?raw=true',
@@ -68,7 +68,7 @@ Product.create(
     name: 'Succulent Garden',
     price: 29.99,
     image:
-      'https://www.plants.com/images/r_preview%20new_20200117-1579282468048.jpeg',
+      'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/succulent.jpg?raw=true',
     id: 3,
     category: 'Succulents'
   },
@@ -76,7 +76,7 @@ Product.create(
     name: 'Safari Animal Succulents',
     price: 29.99,
     image:
-      'https://www.plants.com/images/r_177604ger_20201027-1603831514550.jpg',
+      'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/animal.jpg?raw=true',
     id: 3,
     category: 'Succulents'
   },
@@ -84,7 +84,7 @@ Product.create(
     name: 'Wood Rectangle Succulents',
     price: 49.99,
     image:
-      'https://www.plants.com/images/r_1566419432375_20190821-1566419433339_20191127-1574831465024.png',
+      'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/rectangle.png?raw=true',
     id: 3,
     category: 'Succulents'
   },
@@ -92,15 +92,14 @@ Product.create(
     name: 'Rose Garden Succulent',
     price: 32.99,
     image:
-      'https://www.plants.com/images/r_1566418513060_20190821-1566418513838.png',
+      'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/rose.jpeg?raw=true',
     id: 3,
     category: 'Succulents'
   },
   {
-    name: 'Flaming Katy',
-    price: 17,
-    image:
-      'https://www.plants.com/images/r_1566418513060_20190821-1566418513838.png',
+    name: 'Hoya Heart Succulent',
+    price: 35.99,
+    image: 'https://www.plants.com/images/r_177062D_20200929-1601388831633.jpg',
     id: 3,
     category: 'Succulents'
   }
