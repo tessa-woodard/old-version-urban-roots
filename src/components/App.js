@@ -22,6 +22,7 @@ import Shop from './AllProducts/Shop/Shop'
 
 import About from './About/About'
 import Contact from './Contact/Contact'
+import Inspiration from './Inspiration/Inspiration'
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
 
           <Route path="/about" component={About} />
           <Route path="/contact-us" component={Contact} />
+          <Route path="/inspiration" component={Inspiration} />
         </Switch>
       </AuthProvider>
       <Footer />

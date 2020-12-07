@@ -61,7 +61,7 @@ export default function Footer() {
                 </a>
               </li>
               <li class="mb-2">
-                <a class="nav-link text-dark" href="/menu">
+                <a class="nav-link text-dark" href="/inspiration">
                   Inspiration
                 </a>
               </li>
