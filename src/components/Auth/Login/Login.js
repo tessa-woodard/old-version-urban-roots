@@ -65,6 +65,13 @@ export default function Login() {
                   </Link>
                 </div>
                 <br />
+                <div className="w-100 text-center mt-2">
+                  Forgot password?{' '}
+                  <Link to="/forgot-password" class="text-success">
+                    We can help!
+                  </Link>
+                </div>
+                <br />
                 <button
                   disabled={loading}
                   class="btn btn-outline-dark"
