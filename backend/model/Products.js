@@ -99,8 +99,7 @@ Product.create(
   {
     name: 'Rose Heart Succulent',
     price: 35.99,
-    image:
-      'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/heart.jpg?raw=true',
+    image: 'https://www.plants.com/images/r_177062D_20200929-1601388831633.jpg',
     id: 9,
     category: 'Succulents'
   }
