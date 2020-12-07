@@ -59,23 +59,18 @@ class Shop extends React.Component {
       <div className="container">
         <div className="row">
           {this.state.products.map((product, index) => (
-            <div key={index} id="cardItem" className="col-xs-1 mx-4 my-4">
+            <div key={index} id="cardItem" className="col-xs-1 mx-5 my-5">
               <div className="card" style={{ maxHeight: '100%' }}>
                 <div style={{ maxHeight: '500px' }}>
-                  <img
-                    src={product.image}
-                    alt="plant-img"
-                    // width={200}
-                    // height={250}
-                  />
+                  <img src={product.image} alt="plant-img" />
                 </div>
                 <div className="card-body text-center">
                   <h1 className="product-name">{product.name}</h1>
-                  <h1 className="product-price">${product.price}</h1>
+                  <h1 className="product-name">${product.price}</h1>
+                  <button type="button" class="btn btn-outline-dark">
+                    Add To Cart
+                  </button>
                 </div>
-                <button type="button" class="btn btn-outline-dark">
-                  Add To Cart
-                </button>
               </div>
             </div>
           ))}
