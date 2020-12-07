@@ -1,0 +1,15 @@
+.profile-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 9em 0;
+}
+
+.profile-title {
+  font-size: 5rem;
+  justify-content: center;
+  line-height: 0.8em;
+  margin-bottom: 2rem;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1.1px;
+  margin-top: 0;
+}

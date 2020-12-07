@@ -13,7 +13,7 @@ import Login from './Auth/Login/Login'
 
 import PrivateRoute from './Auth/PrivateRoute'
 
-import Profile from './Auth/Profile'
+import Profile from './Auth/Profile/Profile'
 import ForgotPassword from './Auth/ForgotPassword'
 import UpdateProfile from './Auth/UpdateProfile'
 
