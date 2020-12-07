@@ -15,7 +15,6 @@ import Login from './Auth/Login/Login'
 
 import PrivateRoute from './Auth/PrivateRoute'
 
-// import Profile from './Auth/Profile/Profile'
 import ForgotPassword from './Auth/ForgotPassword'
 import Profile from './Auth/Profile/Profile'
 
@@ -35,7 +34,6 @@ function App() {
           <Route path="/register" component={Register} />
           <Route path="/login" component={Login} />
 
-          {/* <Route path="/profile" component={Profile} /> */}
           <Route path="/forgot-password" component={ForgotPassword} />
           <PrivateRoute path="/profile" component={Profile} />
 

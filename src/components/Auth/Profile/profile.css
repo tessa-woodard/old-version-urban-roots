@@ -4,6 +4,21 @@
   margin: 5em 0;
 }
 
+@media (max-width: 600px) {
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.profile-img {
+  width: 40%;
+  background-image: url('https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/girl-holding-plant.jpeg?raw=true');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .profile-title {
   font-size: 5rem;
   justify-content: center;
@@ -14,15 +29,21 @@
   margin-top: 0;
 }
 
+.flowers {
+  color: olivedrab;
+  font-size: 1.5rem;
+  justify-content: center;
+  line-height: 0.5em;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1.1px;
+}
+
 .form-group {
   line-height: 2rem;
   padding-bottom: 2rem;
 }
 
-.profile-img {
-  width: 40%;
-  background-image: url('https://images.pexels.com/photos/4505447/pexels-photo-4505447.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.profile-buttons {
+  justify-content: space-around;
+  padding: 2rem;
 }
