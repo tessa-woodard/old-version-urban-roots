@@ -1,6 +1,6 @@
 import React from 'react'
 import axios from 'axios'
-// import './shop.css'
+import './shop.css'
 
 class Shop extends React.Component {
   state = {
@@ -10,12 +10,8 @@ class Shop extends React.Component {
     products: []
   }
 
-  componentDidMount() {
-    this.getProducts()
-  }
-
-  getProducts = () => {
-    axios
+  async componentDidMount() {
+    await axios
       .get('/api/products/shop')
       .then((response) => {
         const data = response.data
@@ -27,40 +23,81 @@ class Shop extends React.Component {
       })
   }
 
-  displayProducts = (products) => {
-    return products.map((product, index) => (
-      <div className="product py-5">
+  // displayProducts = (products) => {
+  //   return products.map((product, index) => (
+  //     <div key={index} className="col-lg-3 justify-content-center">
+  //       <div className="row">
+  //         <div className="card" style={{ minHeight: '100%' }}>
+  //           <div style={{ maxHeight: '500px' }}>
+  //             <img
+  //               src={product.image}
+  //               alt="plant-img"
+  //               className="card-img-top"
+  //             />
+  //           </div>
+  //           <div className="card-body text-center">
+  //             <div className="product-text">
+  //               <h1>{product.name}</h1>
+  //               <h1>${product.price}</h1>
+  //             </div>
+  //             <button type="button" class="btn btn-outline-dark">
+  //               Add To Cart
+  //             </button>
+  //           </div>
+  //         </div>
+  //       </div>
+  //     </div>
+  //   ))
+  // }
+
+  // render() {
+  //   return <div>{this.displayProducts(this.state.products)}</div>
+  // }
+
+  render() {
+    return (
+      <div className="container">
         <div className="row">
-          <div key={index} className="mx-auto my-3">
-            <div className="card" style={{ minHeight: '100%' }}>
-              <div style={{ maxHeight: '500px' }}>
-                <img
-                  src={product.image}
-                  alt="plant-img"
-                  className="card-img-top"
-                />
-              </div>
-              <div className="card-body text-center">
-                <div className="product-text">
-                  <h1>{product.name}</h1>
-                  <h1>${product.price}</h1>
+          {this.state.products.map((product, index) => (
+            <div key={index} id="cardItem" className="col-xs-1 mx-4 my-4">
+              <div className="card" style={{ maxHeight: '100%' }}>
+                <div style={{ maxHeight: '500px' }}>
+                  <img
+                    src={product.image}
+                    alt="plant-img"
+                    // width={200}
+                    // height={250}
+                  />
+                </div>
+                <div className="card-body text-center">
+                  <h1 className="product-name">{product.name}</h1>
+                  <h1 className="product-price">${product.price}</h1>
                 </div>
                 <button type="button" class="btn btn-outline-dark">
                   Add To Cart
                 </button>
               </div>
             </div>
-          </div>
+          ))}
         </div>
       </div>
-    ))
-  }
-  render() {
-    return <div>{this.displayProducts(this.state.products)}</div>
+    )
   }
 }
 
 export default Shop
+
+{
+  /* <div className="container">
+<div className="row">
+  {this.state.films.map(film => (
+    <div key={film.id} id='cardItem' className="col-xs-1">
+      <MovieCard film={film} />
+    </div>
+  ))}
+</div>
+</div> */
+}
 
 {
   /* <div className="col-10 col-sm-8 col-md-6 col-lg-4  mx-auto my-3">
