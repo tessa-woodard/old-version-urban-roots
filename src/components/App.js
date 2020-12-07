@@ -17,6 +17,8 @@ import Profile from './Auth/Profile/Profile'
 import ForgotPassword from './Auth/ForgotPassword'
 import UpdateProfile from './Auth/UpdateProfile'
 
+import Shop from './Shop/Shop'
+
 import About from './About/About'
 import Contact from './Contact/Contact'
 
@@ -34,6 +36,8 @@ function App() {
           <Route path="/profile" component={Profile} />
           <Route path="/forgot-password" component={ForgotPassword} />
           <PrivateRoute path="/update-profile" component={UpdateProfile} />
+
+          <Route path="/shop" component={Shop} />
 
           <Route path="/about" component={About} />
           <Route path="/contact-us" component={Contact} />
