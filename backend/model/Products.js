@@ -97,7 +97,7 @@ Product.create(
     category: 'Succulents'
   },
   {
-    name: 'Hoya Heart Succulent',
+    name: 'Rose Heart Succulent',
     price: 35.99,
     image:
       'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/heart.jpg?raw=true',
