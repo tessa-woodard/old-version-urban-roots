@@ -78,7 +78,7 @@ export const useStyles = makeStyles((theme) => ({
   imgBlock: {
     width: '38%',
     backgroundImage:
-      'url("https://www.planthouse.us/uploads/b/ec1ac520-685f-11ea-a811-7f86daf53bb7/531c9090-784c-11ea-bb69-c1e3dbbc22f0.jpg?width=2400")',
+      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/LastShareCollage.jpg?raw=true")',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
