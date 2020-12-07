@@ -57,6 +57,93 @@ const Inspiration = () => {
           <p className={classes.secondText}>- Tessa Woodard</p>
         </div>
       </div>
+      <div className={classes.third}>
+        {/* <h2 className={classes.thirdTitle}>More Inspiration!</h2> */}
+        {/* <span className={classes.thirdSubtitle}>
+          A perfect blend of creativity, energy, communication, happiness and
+          love.
+          <br />
+          Let us arrange a smile for you.
+        </span> */}
+        <div className={classes.expert}>
+          <div>
+            <img
+              className={classes.expertImg}
+              src="https://images.pexels.com/photos/3489129/pexels-photo-3489129.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              alt=""
+              width="350px"
+            />
+          </div>
+          <div>
+            <img
+              className={classes.expertImg}
+              src="https://images.pexels.com/photos/4503752/pexels-photo-4503752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+              width="350px"
+            />
+          </div>
+          <div>
+            <img
+              className={classes.expertImg}
+              src="https://images.pexels.com/photos/3952029/pexels-photo-3952029.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+              alt=""
+              width="350px"
+            />
+          </div>
+        </div>
+        <div className={classes.expert}>
+          <div>
+            <img
+              className={classes.expertImg}
+              src="https://images.pexels.com/photos/2374967/pexels-photo-2374967.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+              width="350px"
+            />
+          </div>
+          <div>
+            <img
+              className={classes.expertImg}
+              src="https://images.pexels.com/photos/3653849/pexels-photo-3653849.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              alt=""
+              width="350px"
+            />
+          </div>
+          <div>
+            <img
+              className={classes.expertImg}
+              src="https://images.pexels.com/photos/3644742/pexels-photo-3644742.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              alt=""
+              width="350px"
+            />
+          </div>
+        </div>
+        <div className={classes.expert}>
+          <div>
+            <img
+              className={classes.expertImg}
+              src="https://images.pexels.com/photos/4083654/pexels-photo-4083654.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              alt=""
+              width="350px"
+            />
+          </div>
+          <div>
+            <img
+              className={classes.expertImg}
+              src="https://images.pexels.com/photos/3952023/pexels-photo-3952023.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+              alt=""
+              width="350px"
+            />
+          </div>
+          <div>
+            <img
+              className={classes.expertImg}
+              src="https://images.pexels.com/photos/916337/pexels-photo-916337.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+              alt=""
+              width="350px"
+            />
+          </div>
+        </div>
+      </div>
     </>
   )
 }

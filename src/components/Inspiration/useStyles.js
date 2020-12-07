@@ -118,9 +118,9 @@ export const useStyles = makeStyles((theme) => ({
     }
   },
 
-  expertImg: {
-    borderRadius: '50%'
-  },
+  // expertImg: {
+  //   borderRadius: '50%'
+  // },
 
   expertTitle: {
     fontSize: 14,
