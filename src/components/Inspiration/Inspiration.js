@@ -69,7 +69,7 @@ const Inspiration = () => {
           <div>
             <img
               className={classes.expertImg}
-              src="https://images.pexels.com/photos/3489129/pexels-photo-3489129.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-1.jpeg?raw=true"
               alt=""
               width="350px"
             />
@@ -77,7 +77,7 @@ const Inspiration = () => {
           <div>
             <img
               className={classes.expertImg}
-              src="https://images.pexels.com/photos/4503752/pexels-photo-4503752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-2.jpeg?raw=true"
               alt=""
               width="350px"
             />
@@ -85,33 +85,7 @@ const Inspiration = () => {
           <div>
             <img
               className={classes.expertImg}
-              src="https://images.pexels.com/photos/3952029/pexels-photo-3952029.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-              alt=""
-              width="350px"
-            />
-          </div>
-        </div>
-        <div className={classes.expert}>
-          <div>
-            <img
-              className={classes.expertImg}
-              src="https://images.pexels.com/photos/2374967/pexels-photo-2374967.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              alt=""
-              width="350px"
-            />
-          </div>
-          <div>
-            <img
-              className={classes.expertImg}
-              src="https://images.pexels.com/photos/3653849/pexels-photo-3653849.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-              alt=""
-              width="350px"
-            />
-          </div>
-          <div>
-            <img
-              className={classes.expertImg}
-              src="https://images.pexels.com/photos/3644742/pexels-photo-3644742.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-3.jpeg?raw=true"
               alt=""
               width="350px"
             />
@@ -121,7 +95,7 @@ const Inspiration = () => {
           <div>
             <img
               className={classes.expertImg}
-              src="https://images.pexels.com/photos/4083654/pexels-photo-4083654.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-4.jpeg?raw=true"
               alt=""
               width="350px"
             />
@@ -129,7 +103,7 @@ const Inspiration = () => {
           <div>
             <img
               className={classes.expertImg}
-              src="https://images.pexels.com/photos/3952023/pexels-photo-3952023.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-5.jpeg?raw=true"
               alt=""
               width="350px"
             />
@@ -137,7 +111,33 @@ const Inspiration = () => {
           <div>
             <img
               className={classes.expertImg}
-              src="https://images.pexels.com/photos/916337/pexels-photo-916337.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-6.jpeg?raw=true"
+              alt=""
+              width="350px"
+            />
+          </div>
+        </div>
+        <div className={classes.expert}>
+          <div>
+            <img
+              className={classes.expertImg}
+              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-7.jpeg?raw=true"
+              alt=""
+              width="350px"
+            />
+          </div>
+          <div>
+            <img
+              className={classes.expertImg}
+              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-8.jpeg?raw=true"
+              alt=""
+              width="350px"
+            />
+          </div>
+          <div>
+            <img
+              className={classes.expertImg}
+              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-9.jpeg?raw=true"
               alt=""
               width="350px"
             />
