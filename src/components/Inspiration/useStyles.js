@@ -89,7 +89,7 @@ export const useStyles = makeStyles((theme) => ({
   },
 
   third: {
-    backgroundColor: 'whitesmoke',
+    backgroundColor: '#FEFDF9',
     textAlign: 'center',
     padding: '40px 0'
   },
