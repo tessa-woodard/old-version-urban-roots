@@ -40,26 +40,25 @@ Product.create(
     category: 'Succulents'
   },
   {
-    name: 'Ghost Plant',
-    price: 14,
+    name: 'Wood Succulent Garden',
+    price: 59.99,
     image:
-      'https://www.plants.com/images/r_1566418513060_20190821-1566418513838.png',
+      'https://www.plants.com/images/r_RECLAIMED_20191121-1574352224619.png',
     id: 2,
     category: 'Succulents'
   },
   {
-    name: 'Flaming Katy',
-    price: 17,
+    name: 'Black Echevaria Succulent',
+    price: 25.99,
     image:
-      'https://www.plants.com/images/r_1566418513060_20190821-1566418513838.png',
+      'https://www.plants.com/images/r_177066BLK_20200929-1601408271520.jpg',
     id: 3,
     category: 'Succulents'
   },
   {
-    name: 'Flaming Katy',
-    price: 17,
-    image:
-      'https://www.plants.com/images/r_1566418513060_20190821-1566418513838.png',
+    name: 'Lula Garden Succulents',
+    price: 54.99,
+    image: 'https://www.plants.com/images/r_large_20200604-1591280842606.jpeg',
     id: 3,
     category: 'Succulents'
   },
