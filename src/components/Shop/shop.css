@@ -1,17 +1,8 @@
 .product-name {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   justify-content: center;
   line-height: 0.5em;
   font-family: 'Playfair Display', serif;
-  letter-spacing: 1.1px;
-  margin-bottom: 1rem;
-}
-
-.product-pice {
-  font-size: 0.5rem;
-  justify-content: center;
-  line-height: 0.5em;
-  font-family: 'Playfair Display', serif;
-  letter-spacing: 1.1px;
+  letter-spacing: 1px;
   margin-bottom: 1rem;
 }
