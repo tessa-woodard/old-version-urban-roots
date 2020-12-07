@@ -58,13 +58,6 @@ const Inspiration = () => {
         </div>
       </div>
       <div className={classes.third}>
-        {/* <h2 className={classes.thirdTitle}>More Inspiration!</h2> */}
-        {/* <span className={classes.thirdSubtitle}>
-          A perfect blend of creativity, energy, communication, happiness and
-          love.
-          <br />
-          Let us arrange a smile for you.
-        </span> */}
         <div className={classes.expert}>
           <div>
             <img
