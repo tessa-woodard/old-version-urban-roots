@@ -99,7 +99,8 @@ Product.create(
   {
     name: 'Hoya Heart Succulent',
     price: 35.99,
-    image: 'https://www.plants.com/images/r_177062D_20200929-1601388831633.jpg',
+    image:
+      'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/heart.jpg?raw=true',
     id: 3,
     category: 'Succulents'
   }
