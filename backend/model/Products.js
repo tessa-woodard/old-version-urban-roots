@@ -61,7 +61,7 @@ Product.create(
     price: 54.99,
     image:
       'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/lula.jpeg?raw=true',
-    id: 3,
+    id: 4,
     category: 'Succulents'
   },
   {
@@ -69,7 +69,7 @@ Product.create(
     price: 29.99,
     image:
       'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/succulent.jpg?raw=true',
-    id: 3,
+    id: 5,
     category: 'Succulents'
   },
   {
@@ -77,7 +77,7 @@ Product.create(
     price: 29.99,
     image:
       'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/animal.jpg?raw=true',
-    id: 3,
+    id: 6,
     category: 'Succulents'
   },
   {
@@ -85,7 +85,7 @@ Product.create(
     price: 49.99,
     image:
       'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/rectangle.png?raw=true',
-    id: 3,
+    id: 7,
     category: 'Succulents'
   },
   {
@@ -93,7 +93,7 @@ Product.create(
     price: 32.99,
     image:
       'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/rose.jpeg?raw=true',
-    id: 3,
+    id: 8,
     category: 'Succulents'
   },
   {
@@ -101,7 +101,7 @@ Product.create(
     price: 35.99,
     image:
       'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/heart.jpg?raw=true',
-    id: 3,
+    id: 9,
     category: 'Succulents'
   }
 )
