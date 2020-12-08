@@ -23,6 +23,7 @@ import Shop from './AllProducts/Shop/Shop'
 import About from './About/About'
 import Contact from './Contact/Contact'
 import Inspiration from './Inspiration/Inspiration'
+import Error from './Globals/404/404'
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/contact-us" component={Contact} />
           <Route path="/inspiration" component={Inspiration} />
+          <Route path="/gift-cards" component={Error} />
         </Switch>
       </AuthProvider>
       <Footer />

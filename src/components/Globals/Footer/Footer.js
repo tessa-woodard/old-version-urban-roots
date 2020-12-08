@@ -34,7 +34,7 @@ export default function Footer() {
                 </a>
               </li>
               <li class="mb-2">
-                <a class="nav-link text-dark" href="/products">
+                <a class="nav-link text-dark" href="/gift-cards">
                   Gift Card
                 </a>
               </li>
