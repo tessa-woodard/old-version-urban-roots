@@ -6,7 +6,7 @@ export const useStyles = makeStyles((theme) => ({
     height: '100%',
     textAlign: 'center',
     backgroundImage:
-      "url('https://images.pexels.com/photos/1213049/pexels-photo-1213049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')",
+      "url('https://images.pexels.com/photos/705911/pexels-photo-705911.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500')",
     backgroundAttachment: 'fixed',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
@@ -21,12 +21,12 @@ export const useStyles = makeStyles((theme) => ({
     fontWeight: 600,
     margin: 0,
     fontFamily: "'Playfair Display', serif",
-    color: 'black'
+    color: 'white'
   },
 
   subtitle: {
     fontSize: 28,
-    color: 'black',
+    color: 'white',
     letterSpacing: 0.5,
     display: 'block',
     fontWeight: 500
@@ -118,9 +118,9 @@ export const useStyles = makeStyles((theme) => ({
     }
   },
 
-  // expertImg: {
-  //   borderRadius: '50%'
-  // },
+  expertImg: {
+    boxShadow: '10px 10px 5px #ccc'
+  },
 
   expertTitle: {
     fontSize: 14,
