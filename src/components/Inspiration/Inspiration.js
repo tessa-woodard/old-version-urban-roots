@@ -20,13 +20,13 @@ const Inspiration = () => {
             your home.. {''}
           </h2>
           <p className={classes.secondText}>
-            hen you think of seeing a plant in wild you may think in its natural
-            habitat like the tropics. We, as the Urban Roots family, think of it
-            as seeing it in your homes! We love seeing the different ways our
-            customers style our plants and the many different pairings you make
-            with our ceramics . Our mission is to guide customers through every
-            step of the Urban Roots experience. That includes finding the
-            perfect match to represent your personal style!
+            When you think of seeing a plant in wild you may think in its
+            natural habitat like the tropics. We, as the Urban Roots family,
+            think of it as seeing it in your homes! We love seeing the different
+            ways our customers style our plants and the many different pairings
+            you make with our ceramics . Our mission is to guide customers
+            through every step of the Urban Roots experience. That includes
+            finding the perfect match to represent your personal style!
           </p>
           <p className={classes.secondText}>
             Plants are a great way to decorate your home but they also bring a
