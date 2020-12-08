@@ -43,7 +43,7 @@ export const useStyles = makeStyles((theme) => ({
   imgBlock: {
     width: '48%',
     backgroundImage:
-      'url("https://www.planthouse.us/uploads/b/278d48fb63e83612cb8344eefebec6c07eab6d8be3effc6e03ed52528bfb25b5/Screen%20Shot%202020-11-04%20at%201.53.12%20PM_1604526838.png?width=2400")',
+      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/shipping.png?raw=true")',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
