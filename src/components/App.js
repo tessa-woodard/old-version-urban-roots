@@ -25,6 +25,7 @@ import Contact from './Contact/Contact'
 import Inspiration from './Inspiration/Inspiration'
 import Error from './Globals/404/404'
 import FAQ from './FAQ/FAQ'
+import Shipping from './Shipping/Shipping'
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
           <Route path="/inspiration" component={Inspiration} />
           <Route path="/gift-cards" component={Error} />
           <Route path="/FAQ" component={FAQ} />
+          <Route path="/shipping" component={Shipping} />
         </Switch>
       </AuthProvider>
       <Footer />

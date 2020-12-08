@@ -26,9 +26,7 @@
     transform: scale(1);
   }
 }
-body {
-  background-color: #f7f7f7;
-}
+
 .error-container {
   font-family: 'Varela Round', sans-serif;
   color: #9b9b9b;
@@ -36,6 +34,7 @@ body {
   height: 95vh;
   text-align: center;
   font-size: 16px;
+  background-color: #f7f7f7;
 }
 .error-container h1 {
   font-size: 32px;
