@@ -1,22 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
-/* body {
-  color: #333;
-  background: #fcfcfc;
-  font-family: 'Raleway', sans-serif;
-  overflow-x: hidden;
-} */
-
 .faq-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 4em 0;
   height: 100%;
   width: 100%;
 }
 
-.faq-header {
-  font-size: 42px;
-  border-bottom: 1px dotted #ccc;
-  padding: 24px;
-  text-align: center;
+@media (max-width: 600px) {
+  .register-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .faq-content {
@@ -28,9 +24,25 @@
   border-bottom: 1px dotted #ccc;
 }
 
+.panel-title-main {
+  font-size: 4rem;
+  width: 100%;
+  line-height: 0.8em;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1rem;
+  font-weight: 600;
+  position: relative;
+  margin: 0;
+  padding: 10px 10px 0 48px;
+  display: block;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
 .panel-title {
   font-size: 24px;
   width: 100%;
+  font-weight: 600;
   position: relative;
   margin: 0;
   padding: 10px 10px 0 48px;
@@ -42,6 +54,7 @@
   font-size: 20px;
   padding: 0px 14px;
   margin: 0 40px;
+  color: #3f3d56;
   height: 0;
   overflow: hidden;
   z-index: -1;
