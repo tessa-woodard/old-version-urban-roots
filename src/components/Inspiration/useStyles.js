@@ -29,7 +29,7 @@ export const useStyles = makeStyles((theme) => ({
     color: 'white',
     letterSpacing: 0.5,
     display: 'block',
-    fontWeight: 500
+    fontWeight: 'bold'
   },
 
   second: {
