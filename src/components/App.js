@@ -26,6 +26,7 @@ import Inspiration from './Inspiration/Inspiration'
 import Error from './Globals/404/404'
 import FAQ from './FAQ/FAQ'
 import Shipping from './Shipping/Shipping'
+import Tips from './Tips/Tips'
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
           <Route path="/gift-cards" component={Error} />
           <Route path="/FAQ" component={FAQ} />
           <Route path="/shipping" component={Shipping} />
+          <Route path="/tips" component={Tips} />
         </Switch>
       </AuthProvider>
       <Footer />

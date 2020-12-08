@@ -56,7 +56,7 @@ export default function Footer() {
             <br />
             <ul class="navbar-nav mx-auto">
               <li class="mb-2">
-                <a class="nav-link text-dark" href="/">
+                <a class="nav-link text-dark" href="/tips">
                   Plant Care Tips
                 </a>
               </li>

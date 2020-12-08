@@ -5,12 +5,6 @@ const Shipping = () => {
   const classes = useStyles()
   return (
     <>
-      {/* <div className={classes.first}>
-        <h2 className={classes.title}>About Us</h2>
-        <span className={classes.subtitle}>
-          Where plants are our inspiration.
-        </span>
-      </div> */}
       <div className={classes.second}>
         <div className={classes.text}>
           <h2 className={classes.secondTitle}>Shipping Rates {''}</h2>
