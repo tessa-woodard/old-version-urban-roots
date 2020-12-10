@@ -19,6 +19,7 @@ import ForgotPassword from './Auth/ForgotPassword/ForgotPassword'
 import Profile from './Auth/Profile/Profile'
 
 import Shop from './AllProducts/Shop/Shop'
+import ProductById from './AllProducts/ProductById/ProductById'
 
 import About from './About/About'
 import Contact from './Contact/Contact'
@@ -43,6 +44,7 @@ function App() {
           <PrivateRoute path="/profile" component={Profile} />
 
           <Route path="/shop" component={Shop} />
+          <Route path="/product/:productId" component={ProductById} />
 
           <Route path="/about" component={About} />
           <Route path="/contact-us" component={Contact} />

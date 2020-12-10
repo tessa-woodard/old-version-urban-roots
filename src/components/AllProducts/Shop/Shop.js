@@ -4,7 +4,7 @@ import './shop.css'
 
 class Shop extends React.Component {
   state = {
-    name: '',
+    title: '',
     price: '',
     image: '',
     products: []
