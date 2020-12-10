@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 import './shop.css'
 
 class Shop extends React.Component {
@@ -27,11 +28,13 @@ class Shop extends React.Component {
     return (
       <div className="container">
         <div className="row">
-          {this.state.products.map((product, index) => (
-            <div key={index} id="cardItem" className="col-xs-1 mx-5 my-5">
+          {this.state.products.map((product) => (
+            <div id="cardItem" className="col-xs-1 mx-5 my-5">
               <div className="card" style={{ minHeight: '100%' }}>
                 <div style={{ maxHeight: '500px' }}>
-                  <img src={product.image} alt="plant-img" />
+                  <Link to={`/product/${product._id}`}>
+                    <img src={product.image} alt="" />
+                  </Link>
                 </div>
                 <div className="card-body text-center">
                   <h1 className="product-title">{product.title}</h1>

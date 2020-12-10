@@ -11,7 +11,7 @@ class ProductById extends React.Component {
   }
 
   async componentDidMount() {
-    const product = await axios
+    await axios
       .get(`/api/products/shop/${this.props.match.params.productId}`)
       .then((res) => {
         const data = res.data
@@ -29,7 +29,7 @@ class ProductById extends React.Component {
         <div>{this.state.product.title}</div>
         <div>{this.state.product.description}</div>
         <div>${this.state.product.price}</div>
-        <img src={this.state.product.image} />
+        <img src={this.state.product.image} alt="" />
       </>
     )
   }
