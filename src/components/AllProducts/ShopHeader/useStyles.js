@@ -6,7 +6,7 @@ export const useStyles = makeStyles((theme) => ({
     height: '100%',
     textAlign: 'center',
     backgroundImage:
-      "url('https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/shop.JPG?raw=true')",
+      "url('https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/shop-header.jpeg?raw=true')",
     backgroundAttachment: 'fixed',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
