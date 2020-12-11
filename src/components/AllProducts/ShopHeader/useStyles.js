@@ -2,11 +2,11 @@ import { makeStyles } from '@material-ui/core/styles'
 
 export const useStyles = makeStyles((theme) => ({
   first: {
-    padding: '110px 0',
+    padding: '60px 0',
     height: '100%',
     textAlign: 'center',
     backgroundImage:
-      "url('https://images.unsplash.com/photo-1568244175035-036b16e89c13?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80')",
+      "url('https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/shop.JPG?raw=true')",
     backgroundAttachment: 'fixed',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
@@ -21,12 +21,14 @@ export const useStyles = makeStyles((theme) => ({
     fontWeight: 600,
     margin: 0,
     fontFamily: "'Playfair Display', serif",
-    color: 'white'
+    color: 'white',
+    marginBottom: '1rem'
   },
 
   subtitle: {
-    fontSize: 28,
+    fontSize: 26,
     color: 'white',
+    fontStyle: 'italic',
     letterSpacing: 0.5,
     display: 'block',
     fontWeight: 'bold'

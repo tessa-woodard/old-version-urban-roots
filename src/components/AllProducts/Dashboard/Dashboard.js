@@ -1,11 +1,11 @@
 import React from 'react'
 import Shop from '../Shop/Shop'
-import Carousel from '../Carousel/Carousel'
+import ShopHeader from '../ShopHeader/ShopHeader'
 
 const Dashboard = () => {
   return (
     <>
-      <Carousel />
+      <ShopHeader />
       <Shop />
     </>
   )

@@ -6,9 +6,10 @@ const Images = () => {
   return (
     <>
       <div className={classes.first}>
-        <h2 className={classes.title}>About Us</h2>
+        <h2 className={classes.title}>All Plants</h2>
         <span className={classes.subtitle}>
-          Where plants are our inspiration.
+          With so many plants online to choose from and grow with, it’s hard to
+          pick just one for plant delivery!
         </span>
       </div>
     </>
