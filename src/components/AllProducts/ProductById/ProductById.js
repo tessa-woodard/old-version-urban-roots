@@ -40,13 +40,20 @@ class ProductById extends React.Component {
               className="product-img"
             />
             <section className="content">
-              <h1>{this.state.product.title}</h1>
-              <br />
+              <h1 className="product-title">{this.state.product.title}</h1>
               <Stars reviews={19} stars={4.5} />
               <br />
-              <h2 className="price">${this.state.product.price}</h2>
+              <h1 className="price">${this.state.product.price}</h1>
               <br />
               <p className="info">{this.state.product.description}</p>
+              <br />
+              <p className="info">
+                <span>Available : In Stock </span>
+              </p>
+
+              <p className="info">
+                <span>Type : {this.state.product.category}</span>
+              </p>
               <br />
               <button class="btn btn-outline-dark">Add To Cart</button>
             </section>
@@ -60,17 +67,25 @@ class ProductById extends React.Component {
 const Wrapper = styled.main`
   .product-center {
     display: grid;
-    gap: 4rem;
-    margin-top: 2rem;
+    gap: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
   }
   .product-img {
     width: 85%;
     display: block;
-    padding: 3rem 5rem;
+    padding: 3rem 1rem;
     object-fit: cover;
   }
+  .product-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.3rem;
+    font-weight: bold;
+  }
   .price {
+    font-size: 2rem;
     color: olivedrab;
+    font-weight: 600;
   }
   .desc {
     line-height: 2;
@@ -80,9 +95,9 @@ const Wrapper = styled.main`
     text-transform: capitalize;
     width: 300px;
     display: grid;
-    grid-template-columns: 525px 1fr;
+    grid-template-columns: 600px 1fr;
     span {
-      font-weight: 700;
+      font-weight: 600;
     }
   }
   @media (min-width: 992px) {
@@ -90,9 +105,9 @@ const Wrapper = styled.main`
       grid-template-columns: 1fr 1fr;
       align-items: center;
     }
-    .price {
+    /* .price {
       font-size: 1.25rem;
-    }
+    } */
   }
 `
 

@@ -52,7 +52,7 @@ const Stars = ({ stars, reviews }) => {
         </span>
       </div>
       <p className="reviews">
-        ({Math.floor(Math.random() * 40) + 1} customer reviews)
+        ({Math.floor(Math.random() * 40) + 2} customer reviews)
       </p>
     </Wrapper>
   )
