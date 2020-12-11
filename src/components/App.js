@@ -18,7 +18,7 @@ import PrivateRoute from './Auth/PrivateRoute'
 import ForgotPassword from './Auth/ForgotPassword/ForgotPassword'
 import Profile from './Auth/Profile/Profile'
 
-import Shop from './AllProducts/Shop/Shop'
+import Shop from './AllProducts/Dashboard/Dashboard'
 import ProductById from './AllProducts/ProductById/ProductById'
 
 import About from './About/About'
