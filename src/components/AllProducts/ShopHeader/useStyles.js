@@ -2,13 +2,13 @@ import { makeStyles } from '@material-ui/core/styles'
 
 export const useStyles = makeStyles((theme) => ({
   first: {
-    padding: '60px 0',
+    padding: '90px 0',
     height: '100%',
     textAlign: 'center',
     backgroundImage:
       "url('https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/shop-header.jpeg?raw=true')",
     backgroundAttachment: 'fixed',
-    backgroundPosition: 'center',
+    backgroundPosition: '0% 100%',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     [theme.breakpoints.down('md')]: {

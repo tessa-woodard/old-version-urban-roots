@@ -29,7 +29,7 @@ class Shop extends React.Component {
       <div className="container">
         <div className="row">
           {this.state.products.map((product) => (
-            <div id="cardItem" className="col-xs-1 mx-5 my-5">
+            <div id="cardItem" className="col-xs-1 mx-5 my-3">
               <div
                 className="card"
                 style={{
