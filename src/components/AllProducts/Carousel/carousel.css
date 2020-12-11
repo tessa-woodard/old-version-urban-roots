@@ -8,3 +8,9 @@
   height: 50vh;
   background-size: cover;
 }
+
+.carousel-caption {
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+  color: black;
+}
