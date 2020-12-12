@@ -11,7 +11,7 @@ const Homepage = () => {
         <br />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iure
-          quasi odit tenetur unde officiis repudiandae quod deserunt quia eum?!!
+          quasi odit tenetur unde officiis rep
         </p>
         <a href="/shop" class="btn btn-outline-dark lg">
           Shop Now
