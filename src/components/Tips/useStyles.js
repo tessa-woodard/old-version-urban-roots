@@ -92,7 +92,7 @@ export const useStyles = makeStyles((theme) => ({
   imgBlock2: {
     width: '38%',
     backgroundImage:
-      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/tips-collage1.jpeg?raw=true")',
+      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/tips-collage2.jpeg?raw=true")',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',

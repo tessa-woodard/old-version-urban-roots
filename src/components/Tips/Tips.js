@@ -38,7 +38,7 @@ const Tips = () => {
         <div className={classes.imgBlock1} />
       </div>
       <div className={classes.second}>
-        <div className={classes.imgBlock} />
+        <div className={classes.imgBlock2} />
         <div className={classes.text}>
           <h2 className={classes.secondTitle}>
             Signs of Overwatered{' '}
