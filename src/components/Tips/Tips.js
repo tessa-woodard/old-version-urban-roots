@@ -150,7 +150,7 @@ const Tips = () => {
             from overwatering.
           </p>
         </div>
-        <div className={classes.imgBlock} />
+        <div className={classes.imgBlock3} />
       </div>
     </>
   )
