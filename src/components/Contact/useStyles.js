@@ -17,7 +17,7 @@ export const useStyles = makeStyles((theme) => ({
   },
 
   title: {
-    fontSize: 50,
+    fontSize: 80,
     fontWeight: 600,
     margin: 0,
     fontFamily: "'Playfair Display', serif",

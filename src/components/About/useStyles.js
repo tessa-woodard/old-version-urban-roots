@@ -10,14 +10,14 @@ export const useStyles = makeStyles((theme) => ({
     backgroundAttachment: 'fixed',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
+    // backgroundSize: 'cover',
     [theme.breakpoints.down('md')]: {
       backgroundPosition: 'right'
     }
   },
 
   title: {
-    fontSize: 50,
+    fontSize: 70,
     fontWeight: 600,
     margin: 0,
     fontFamily: "'Playfair Display', serif",
@@ -25,11 +25,12 @@ export const useStyles = makeStyles((theme) => ({
   },
 
   subtitle: {
-    fontSize: 28,
+    fontSize: 35,
     color: 'black',
+    fontStyle: 'italic',
     letterSpacing: 0.5,
     display: 'block',
-    fontWeight: 500
+    fontWeight: 600
   },
 
   second: {

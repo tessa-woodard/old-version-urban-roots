@@ -6,7 +6,7 @@ export const useStyles = makeStyles((theme) => ({
     height: '100%',
     textAlign: 'center',
     backgroundImage:
-      "url('https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-background.jpeg?raw=true')",
+      "url('https://uglydeck.com/wp-content/uploads/2020/04/green-indoor-potted-plant-lot-793012-1200x675.jpg')",
     backgroundAttachment: 'fixed',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
@@ -17,7 +17,7 @@ export const useStyles = makeStyles((theme) => ({
   },
 
   title: {
-    fontSize: 50,
+    fontSize: 80,
     fontWeight: 600,
     margin: 0,
     fontFamily: "'Playfair Display', serif",
@@ -25,8 +25,9 @@ export const useStyles = makeStyles((theme) => ({
   },
 
   subtitle: {
-    fontSize: 28,
+    fontSize: 35,
     color: 'white',
+    fontStyle: 'italic',
     letterSpacing: 0.5,
     display: 'block',
     fontWeight: 'bold'
