@@ -76,10 +76,36 @@ export const useStyles = makeStyles((theme) => ({
     textAlign: 'justify'
   },
 
-  imgBlock: {
+  imgBlock1: {
     width: '38%',
     backgroundImage:
-      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/about-us.jpeg?raw=true")',
+      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/tips-collage1.jpeg?raw=true")',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    [theme.breakpoints.down('md')]: {
+      width: '60%',
+      height: 350
+    }
+  },
+
+  imgBlock2: {
+    width: '38%',
+    backgroundImage:
+      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/tips-collage1.jpeg?raw=true")',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    [theme.breakpoints.down('md')]: {
+      width: '60%',
+      height: 350
+    }
+  },
+
+  imgBlock3: {
+    width: '38%',
+    backgroundImage:
+      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/tips-collage1.jpeg?raw=true")',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
