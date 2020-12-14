@@ -76,6 +76,15 @@ export const useStyles = makeStyles((theme) => ({
     textAlign: 'justify'
   },
 
+  secondTextBold: {
+    fontSize: 20,
+    fontWeight: 600,
+    lineHeight: '29px',
+    marginBottom: 40,
+    color: 'rgba(0,0,0,0.5)',
+    textAlign: 'justify'
+  },
+
   imgBlock1: {
     width: '38%',
     backgroundImage:
@@ -90,7 +99,7 @@ export const useStyles = makeStyles((theme) => ({
   },
 
   imgBlock2: {
-    width: '38%',
+    width: '55%',
     backgroundImage:
       'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/tips-collage2.jpeg?raw=true")',
     backgroundPosition: 'center',
