@@ -6,11 +6,11 @@ export const useStyles = makeStyles((theme) => ({
     height: '100%',
     textAlign: 'center',
     backgroundImage:
-      "url('https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/background.jpeg?raw=true')",
+      "url('https://images.pexels.com/photos/1445416/pexels-photo-1445416.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500')",
     backgroundAttachment: 'fixed',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
-    // backgroundSize: 'cover',
+    backgroundSize: 'cover',
     [theme.breakpoints.down('md')]: {
       backgroundPosition: 'right'
     }

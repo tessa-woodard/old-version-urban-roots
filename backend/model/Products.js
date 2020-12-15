@@ -118,6 +118,46 @@ const Product = mongoose.model('Product', productSchema)
 //       'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/heart.jpg?raw=true',
 //     id: 9,
 //     category: 'Succulents'
+//   },
+//   {
+//     title: 'Hoya Heart Succulent',
+//     description:
+//       'A plant that says how you feel (without having to say a word). Also known as the “lucky heart” because it’s thought to keep you lucky in love, this succulent brings feel-good warmth to any space. So, if you’re a sucker for easy-care plants, this one’s for you. Plant Perk: Succulents are drought-resistant, pulling moisture from around them so that all it takes is a simple spritz to keep them thriving. (They’re great for people who travel often.)',
+//     price: 35.99,
+//     image:
+//       'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/heart.jpg?raw=true',
+//     id: 9,
+//     category: 'Palms'
+//   },
+//   {
+//     title: 'Hoya Heart Succulent',
+//     description:
+//       'A plant that says how you feel (without having to say a word). Also known as the “lucky heart” because it’s thought to keep you lucky in love, this succulent brings feel-good warmth to any space. So, if you’re a sucker for easy-care plants, this one’s for you. Plant Perk: Succulents are drought-resistant, pulling moisture from around them so that all it takes is a simple spritz to keep them thriving. (They’re great for people who travel often.)',
+//     price: 35.99,
+//     image:
+//       'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/heart.jpg?raw=true',
+//     id: 9,
+//     category: 'Cacti'
+//   },
+//   {
+//     title: 'Hoya Heart Succulent',
+//     description:
+//       'A plant that says how you feel (without having to say a word). Also known as the “lucky heart” because it’s thought to keep you lucky in love, this succulent brings feel-good warmth to any space. So, if you’re a sucker for easy-care plants, this one’s for you. Plant Perk: Succulents are drought-resistant, pulling moisture from around them so that all it takes is a simple spritz to keep them thriving. (They’re great for people who travel often.)',
+//     price: 35.99,
+//     image:
+//       'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/heart.jpg?raw=true',
+//     id: 9,
+//     category: 'Florals'
+//   },
+//   {
+//     title: 'Hoya Heart Succulent',
+//     description:
+//       'A plant that says how you feel (without having to say a word). Also known as the “lucky heart” because it’s thought to keep you lucky in love, this succulent brings feel-good warmth to any space. So, if you’re a sucker for easy-care plants, this one’s for you. Plant Perk: Succulents are drought-resistant, pulling moisture from around them so that all it takes is a simple spritz to keep them thriving. (They’re great for people who travel often.)',
+//     price: 35.99,
+//     image:
+//       'https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/plants/heart.jpg?raw=true',
+//     id: 9,
+//     category: 'Pothos'
 //   }
 // )
 

@@ -1,7 +1,8 @@
 import React from 'react'
 import axios from 'axios'
-import { Link } from 'react-router-dom'
 import './shop.css'
+import { Link } from 'react-router-dom'
+// import Filter from './Filter'
 
 class Shop extends React.Component {
   state = {
@@ -55,6 +56,7 @@ class Shop extends React.Component {
           ))}
         </div>
       </div>
+      /* <Filter products={this.state.products} /> */
     )
   }
 }
