@@ -7,9 +7,9 @@ const Tips = () => {
   return (
     <>
       <div className={classes.first}>
-        <h2 className={classes.title}>About Us</h2>
+        <h2 className={classes.title}>Plant Care</h2>
         <span className={classes.subtitle}>
-          Where plants are our inspiration.
+          Tips & Tricks to make plant-parenting downright easy.
         </span>
       </div>
       <div className={classes.second}>
