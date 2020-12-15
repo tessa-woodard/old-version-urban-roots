@@ -3,6 +3,7 @@ import axios from 'axios'
 import './shop.css'
 import { Link } from 'react-router-dom'
 // import Filter from './Filter'
+import ShopHeader from './ShopHeader'
 
 class Shop extends React.Component {
   state = {
@@ -27,35 +28,38 @@ class Shop extends React.Component {
 
   render() {
     return (
-      <div className="container">
-        <div className="row">
-          {this.state.products.map((product) => (
-            <div id="cardItem" className="col-xs-1 mx-5 my-3">
-              <div
-                className="card"
-                style={{
-                  border: 'none',
-                  minHeight: '100%'
-                }}
-              >
-                <div style={{ maxHeight: '500px' }}>
-                  <Link to={`/product/${product._id}`}>
-                    <img
-                      src={product.image}
-                      alt=""
-                      style={{ borderRadius: '15px' }}
-                    />
-                  </Link>
-                </div>
-                <div className="card-body text-center">
-                  <h1 className="product-title">{product.title}</h1>
-                  <h1 className="product-price">${product.price}</h1>
+      <>
+        <ShopHeader />
+        <div className="container">
+          <div className="row">
+            {this.state.products.map((product) => (
+              <div id="cardItem" className="col-xs-1 mx-5 my-3">
+                <div
+                  className="card"
+                  style={{
+                    border: 'none',
+                    minHeight: '100%'
+                  }}
+                >
+                  <div style={{ maxHeight: '500px' }}>
+                    <Link to={`/product/${product._id}`}>
+                      <img
+                        src={product.image}
+                        alt=""
+                        style={{ borderRadius: '15px' }}
+                      />
+                    </Link>
+                  </div>
+                  <div className="card-body text-center">
+                    <h1 className="product-title">{product.title}</h1>
+                    <h1 className="product-price">${product.price}</h1>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
+      </>
       /* <Filter products={this.state.products} /> */
     )
   }

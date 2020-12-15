@@ -6,9 +6,9 @@ export const useStyles = makeStyles((theme) => ({
     height: '100%',
     textAlign: 'center',
     backgroundImage:
-      "url('https://images.pexels.com/photos/1445416/pexels-photo-1445416.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500')",
+      "url('https://images.pexels.com/photos/6583/nature-plant-leaf-leaves-6583.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500')",
     backgroundAttachment: 'fixed',
-    backgroundPosition: 'center',
+    // backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     [theme.breakpoints.down('md')]: {

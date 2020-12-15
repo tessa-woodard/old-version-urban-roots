@@ -22,44 +22,12 @@ class Header extends Component {
         <ReactBootStrap.Navbar.Collapse id="basic-navbar-nav">
           <ReactBootStrap.Nav className="mr-auto">
             <ReactBootStrap.Nav.Link href="/">Home</ReactBootStrap.Nav.Link>
-            <ReactBootStrap.NavDropdown
-              title="Category"
-              id="basic-nav-dropdown"
-            >
-              <ReactBootStrap.NavDropdown.Item href="/succulents">
-                Succulents
-              </ReactBootStrap.NavDropdown.Item>
-              <ReactBootStrap.NavDropdown.Item href="/cacti">
-                Cacti
-              </ReactBootStrap.NavDropdown.Item>
-              <ReactBootStrap.NavDropdown.Item href="/florals">
-                Florals
-              </ReactBootStrap.NavDropdown.Item>
-              <ReactBootStrap.NavDropdown.Item href="/palms">
-                Palms
-              </ReactBootStrap.NavDropdown.Item>
-              <ReactBootStrap.NavDropdown.Item href="/pothos">
-                Pothos
-              </ReactBootStrap.NavDropdown.Item>
-            </ReactBootStrap.NavDropdown>
+
             <ReactBootStrap.Nav.Link href="/shop">Shop</ReactBootStrap.Nav.Link>
             <ReactBootStrap.Nav.Link href="/cart">Cart</ReactBootStrap.Nav.Link>
             <ReactBootStrap.Nav.Link href="/about">
               About Us
             </ReactBootStrap.Nav.Link>
-          </ReactBootStrap.Nav>
-
-          <ReactBootStrap.Nav className="mr-auto">
-            <ReactBootStrap.Form inline>
-              <ReactBootStrap.FormControl
-                type="text"
-                placeholder="Search"
-                className="mr-sm-2"
-              />
-              <ReactBootStrap.Button variant="outline-dark">
-                Search
-              </ReactBootStrap.Button>
-            </ReactBootStrap.Form>
           </ReactBootStrap.Nav>
 
           <ReactBootStrap.Nav>
