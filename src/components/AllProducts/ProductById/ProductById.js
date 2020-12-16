@@ -3,7 +3,6 @@ import axios from 'axios'
 import { withRouter } from 'react-router'
 import styled from 'styled-components'
 import Stars from './Stars'
-import StripeCheckout from 'react-stripe-checkout'
 // import { Link } from 'react-router-dom'
 
 class ProductById extends React.Component {
@@ -25,17 +24,6 @@ class ProductById extends React.Component {
       .catch((err) => {
         console.log(err)
       })
-  }
-
-  onToken = (token) => {
-    fetch('/save-stripe-token', {
-      method: 'POST',
-      body: JSON.stringify(token)
-    }).then((response) => {
-      response.json().then((data) => {
-        alert(`Thank you for your business!`)
-      })
-    })
   }
 
   render() {
@@ -67,24 +55,7 @@ class ProductById extends React.Component {
                 <span>Type : {this.state.product.category}</span>
               </p>
               <br />
-              <button
-                class="btn btn-outline-dark"
-                // onClick={(e) => {
-                //   props.addToCart(props.ProductById)
-                // }}
-              >
-                Add To Cart
-              </button>
-              <StripeCheckout
-                token={this.onToken}
-                stripeKey="pk_test_51HyqlhCv6ZCzwt6pNdRi9G4J943HZ1ZGrElD923srufSLRthdk77F21Fmt2pZy907el3Fb9Ax5CIL7P0753JRpGf00AKQi4e2C"
-                billingAddress
-                shippingAddress
-                amount={this.state.product.price * 100}
-                name={this.state.product.title}
-                image={this.state.product.image}
-                allowRememberMe
-              />
+              <button class="btn btn-outline-dark">Add To Cart</button>
             </section>
           </div>
         </section>
