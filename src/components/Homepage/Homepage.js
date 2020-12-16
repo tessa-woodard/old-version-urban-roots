@@ -2,26 +2,34 @@ import React from 'react'
 import styled from 'styled-components'
 import homepageMain from '../../assets/homepage-main.jpeg'
 import homepageAccent from '../../assets/homepage-accent.webp'
+// import Carousel from './Carousel'
 
 const Homepage = () => {
   return (
-    <Wrapper className="section-center">
-      <article className="content">
-        <h1>Urban Roots</h1>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iure
-          quasi odit tenetur unde officiis rep
-        </p>
-        <a href="/shop" class="btn btn-outline-dark lg">
-          Shop Now
-        </a>
-      </article>
-      <article className="img-container">
-        <img src={homepageMain} alt="nice table" className="main-img" />
-        <img src={homepageAccent} alt="person working" className="accent-img" />
-      </article>
-    </Wrapper>
+    <>
+      <Wrapper className="section-center">
+        <article className="content">
+          <h1>Urban Roots</h1>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            iure quasi odit tenetur unde officiis rep
+          </p>
+          <a href="/shop" class="btn btn-outline-dark lg">
+            Shop Now
+          </a>
+        </article>
+        <article className="img-container">
+          <img src={homepageMain} alt="nice table" className="main-img" />
+          <img
+            src={homepageAccent}
+            alt="person working"
+            className="accent-img"
+          />
+        </article>
+      </Wrapper>
+      {/* <Carousel /> */}
+    </>
   )
 }
 

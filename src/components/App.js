@@ -20,6 +20,7 @@ import Profile from './Auth/Profile/Profile'
 
 import Shop from './AllProducts/Dashboard/Dashboard'
 import ProductById from './AllProducts/ProductById/ProductById'
+import Cart from './Cart/Cart'
 
 import About from './About/About'
 import Contact from './Contact/Contact'
@@ -45,6 +46,7 @@ function App() {
 
           <Route path="/shop" component={Shop} />
           <Route path="/product/:productId" component={ProductById} />
+          <Route path="/cart" component={Cart} />
 
           <Route path="/about" component={About} />
           <Route path="/contact-us" component={Contact} />

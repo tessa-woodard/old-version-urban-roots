@@ -26,6 +26,12 @@ class Shop extends React.Component {
       })
   }
 
+  handleChange = (e) => {
+    this.setState({
+      search: e.target.value
+    })
+  }
+
   render() {
     return (
       <>
