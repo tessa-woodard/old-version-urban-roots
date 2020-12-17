@@ -1,11 +1,26 @@
 require('dotenv').config()
+
 const express = require('express')
 
 const mongoose = require('mongoose')
 
 const morgan = require('morgan')
 
+//hosting setup
+
+const path = require('path')
+const publicPath = path.join(__dirname, '../../', 'public')
+
 const app = express()
+
+app.use(express.static(publicPath))
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(publicPath, 'index.html'))
+})
+
+//end hosting setup
+
 app.use(morgan('dev'))
 
 // import routes
@@ -18,7 +33,7 @@ app.listen(process.env.SERVER_PORT, (err) => {
   if (err) console.log('Error in server setup')
   console.log(`👨 To Infinity & Beyond on Port => ${process.env.SERVER_PORT}`),
     mongoose.connect(
-      'mongodb+srv://tessa_w:Lovely567!@cluster0.zlszm.mongodb.net/UrbanRoots?retryWrites=true&w=majority',
+      process.env.DB_CONNECT,
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,

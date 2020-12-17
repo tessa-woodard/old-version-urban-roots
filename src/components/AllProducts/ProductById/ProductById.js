@@ -59,7 +59,7 @@ class ProductById extends React.Component {
                 class="snipcart-add-item btn btn-outline-dark"
                 data-item-id={this.state.product._id}
                 data-item-price={this.state.product.price}
-                // data-item-url="http://localhost:3000/product/5fd816c367878752c4330a1f"
+                // data-item-url=
                 data-item-description={this.state.product.description}
                 data-item-image={this.state.product.image}
                 data-item-name={this.state.product.title}
