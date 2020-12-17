@@ -6,20 +6,7 @@ const mongoose = require('mongoose')
 
 const morgan = require('morgan')
 
-//hosting setup
-
-const path = require('path')
-const publicPath = path.join(__dirname, '../../', 'public')
-
 const app = express()
-
-app.use(express.static(publicPath))
-
-app.get('*', (req, res) => {
-  res.sendFile(path.join(publicPath, 'index.html'))
-})
-
-//end hosting setup
 
 app.use(morgan('dev'))
 
