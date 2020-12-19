@@ -12,8 +12,11 @@ const Homepage = () => {
           <h1>Urban Roots</h1>
           <br />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-            iure quasi od
+            Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor Lorem
+            ipsum dolor sit amet, consectetur Lorem ipsum dolor Lorem ipsum
+            dolor sit amet, consectetur Lorem ipsum dolor Lorem ipsum dolor sit
+            amet, consectetur Lorem ipsum dolor Lorem ipsum dolor sit amet,
+            consectetur Lorem ipsum dolor
           </p>
           <a href="/shop" class="btn btn-outline-dark lg">
             Shop Now
