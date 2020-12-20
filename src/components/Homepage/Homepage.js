@@ -16,6 +16,12 @@ const Homepage = () => {
             ipsum dolor sit amet, consectetur Lorem ipsum dolor Lorem ipsum
             dolor sit amet, consectetur Lorem ipsum dolor Lorem ipsum dolor sit
             amet, consectetur Lorem ipsum dolor Lorem ipsum dolor sit amet,
+            consectetur Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor
+            sit amet, consectetur Lorem ipsum dolor Lorem ipsum dolor Lorem
+            ipsum dolor sit amet, consectetur Lorem ipsum dolor Lorem ipsum
+            dolor Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor
+            Lorem ipsum dolor Lorem ipsum dolor sit amet, consectetur Lorem
+            ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sit amet,
             consectetur Lorem ipsum dolor
           </p>
           <a href="/shop" class="btn btn-outline-dark lg">
