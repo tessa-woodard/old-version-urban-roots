@@ -24,7 +24,6 @@ class Header extends Component {
             <ReactBootStrap.Nav.Link href="/">Home</ReactBootStrap.Nav.Link>
 
             <ReactBootStrap.Nav.Link href="/shop">Shop</ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link href="/cart">Cart</ReactBootStrap.Nav.Link>
             <ReactBootStrap.Nav.Link href="/about">
               About Us
             </ReactBootStrap.Nav.Link>
